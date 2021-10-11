@@ -86,13 +86,12 @@ for (let word1 of words) {
 }
 
 
-        console.log(planets.length);
+console.log(planets.length);
 let planetStr = planets.join(',');
 
-/*
 fs.writeFileSync('circle-planets.csv', planetStr);
 
-let rib = fs.readFileSync('../~ribwet-planets.csv', 'utf-8').split(',');
+let rib = fs.readFileSync('', 'utf-8').split('\n');
 let ribMap = {}
 rib.map(p => ribMap[p] = true);
 
